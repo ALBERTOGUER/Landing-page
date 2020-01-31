@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background: #4C5870;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: silver;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    background-image: url(./../img/ihor-saveliev-_aN6zIDRLfQ-unsplash.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 70px;
+}
+.section3{
+    background: #A2A9AF;
+    height: 50vh;
+}
+.section4{
+    background: #3D3D3B;
+    height: 50vh;
+}
+#icon{
+    font-size: 40px;
+}
