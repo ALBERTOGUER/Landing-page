@@ -17,7 +17,7 @@ section{
 }
 .section2{
     background-image: url(./../img/ihor-saveliev-_aN6zIDRLfQ-unsplash.jpg);
-    height: 80vh;
+    height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -32,9 +32,74 @@ h1{
     height: 50vh;
 }
 .section4{
-    background: #3D3D3B;
+    
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;    
+}
+.section5{
+    height: 50vh;
+    background: #3D3D3B;
 }
 #icon{
     font-size: 40px;
+}
+.imagen{
+    height: 290px;
+    border-radius: 15px;
+}
+
+.col-6{
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+#section4__p{
+width: 50%;
+text-align: center;
+}
+
+#icon_user{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+}
+li{
+    color: white;
+}
+
+footer{
+    height: 7vh;
+    background: rgb(24,100,171);
+    display: flex !important;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#twet{
+    color: #55ADED;
+    font-size: 70px;
+}
+#face{
+    font-size: 70px;
+    color: #4267B2;
+    
+}
+#google{
+    font-size: 70px; 
+    color: rgb(220,66,54);   
+}
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#git{
+    font-size: 30px;
+    color: black;
 }
